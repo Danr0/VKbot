@@ -6,7 +6,7 @@
 #### To use api: change webadress in "bot.py" and "login.py"
 #### To not use api: comment(#) all requests (expect "_get_user_name_from_vk_id")
 
-#### To use flask for Api for DB: change options in "flask_app.py" (and run it on another docker container or web site)
+#### To use Api for DB: change options in "flask_app.py" (and run it on another docker container or web site)
 #### To use Model: download files (in zip) from https://yadi.sk/d/2ILoEcx_NHBp-Q/%D0%9C%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C 
 
 
