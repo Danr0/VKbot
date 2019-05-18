@@ -5,9 +5,9 @@
 #### To use only bot: comment(#) in "response.py" line "return good_answer(..."
 #### To use api: change webadress in "bot.py" and "login.py"
 #### To not use api: comment(#) all requests (expect "_get_user_name_from_vk_id")
-
 #### To use Api for DB: change options in "flask_app.py" (and run it on another docker container or web site)
 #### To use Model: download files (in zip) from https://yadi.sk/d/2ILoEcx_NHBp-Q/%D0%9C%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C 
+#### To use another Model: in "response.py" change "return good_answer(..." to " return urfunction(text)" (return str in utf8)
 
 
 ## Bot Files 
@@ -18,7 +18,7 @@
 ### 3)login.py
 #### Autification for users and admins 
 ### 4)response.py
-#### Simple answers and call main ML model 
+#### Simple answers and call main model 
 ### 5)tokens.py
 #### Tokens generate and validate (for login)
 ### 6)flask_app.py
@@ -26,7 +26,7 @@
 
 
 ## Model files:
-### 0)result.py - пример вызова функции из true_project.py 
+### 0)result.py
 #### Simple example for use Model function
 ### 1)test_1.py 
 #### Объявление функций (нормализация, векторизация, предсказание класс, annoy, предсказание ответа), импорт обученных моделей (w2v, annoy, вектора)
