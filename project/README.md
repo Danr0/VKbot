@@ -1,5 +1,8 @@
 # VKbot
 
+## Description
+### The bot trained on https://otvet.mail.ru/ and https://ru.stackoverflow.com/ He can answer questions in Russian by VK messages.
+
 ### Easy start: 
 #### python bot.py  OR  docker build -> docker run
 #### To use only bot: comment(#) in "response.py" line "return good_answer(..."
